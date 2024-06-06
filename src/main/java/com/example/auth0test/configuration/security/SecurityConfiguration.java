@@ -91,7 +91,7 @@ public class SecurityConfiguration {
     @Bean
     JwtAuthenticationConverter jwtAuthenticationConverter() {
         JwtGrantedAuthoritiesConverter converter = new JwtGrantedAuthoritiesConverter();
-        converter.setAuthoritiesClaimName("https://auth0Test.com/roles");
+        converter.setAuthoritiesClaimName("https://probando.yt//roles");
         converter.setAuthorityPrefix("");
 
         JwtAuthenticationConverter jwtConverter = new JwtAuthenticationConverter();

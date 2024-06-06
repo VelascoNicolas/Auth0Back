@@ -8,7 +8,7 @@ public class Auth0Test {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Auth0Test.class, args);
-		System.out.println("Me ejecutaste");
+		System.out.println("Estoy Activo en el main");
 	}
 
 }

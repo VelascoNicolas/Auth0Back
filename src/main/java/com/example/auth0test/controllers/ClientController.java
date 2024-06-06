@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ClientController {
 
     @GetMapping(value = "")
-    @PreAuthorize("hasAuthority('cliente')")
+    //@PreAuthorize("hasAuthority('cliente')")
     public ResponseEntity<?> publicEndpoint() {
         return ResponseEntity.status(HttpStatus.OK).body("{ \"message\": \"Este es un endpoint de usuario. Podes ver esta respuesta porque te has logueado en la aplicación.\"}");
     }
